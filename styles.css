@@ -1,0 +1,43 @@
+html{
+  height: 100vh;
+}
+
+body{
+  margin: 0px;
+  background-image: url(https://media.giphy.com/media/V5qXaUBISlbTa/giphy.gif);
+  background-size: cover;
+
+  
+}
+
+#boundaryBox{
+  padding: 10%;
+  width: 81vw;
+  height: 25vw;
+  
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 5px 5px 3px grey;
+  
+}
+
+.red{background-color: red}
+.blue{background-color: blue}
+.green{background-color: green}
+.yellow{background-color: yellow}
